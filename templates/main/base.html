@@ -1,0 +1,14 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{% block title %}CAH Workshopper{% endblock %}</title>
+<link href="{% static 'Stylesheet.css' %}" type="text/css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="jquery-csv-main\src\jquery.csv.js"></script>
+</head>
+<body>
+  {% block content %}
+  {% endblock %}
+</body>

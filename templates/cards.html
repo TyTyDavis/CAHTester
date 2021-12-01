@@ -1,0 +1,17 @@
+{% extends 'main/base.html' %}
+{% block content %}
+<div class="container">
+  <div class="white">
+    <form >
+      <textarea autofocus maxlength="100" id="cardIdea" placeholder="White card"></textarea>
+      <input type="button" onclick="generate()" value="Try it">
+    </form>
+    </div>
+  <div class="black">
+    <div class="card" id="1">test</div>
+    <div class="card" id="2">test</div>
+    <div class="card" id="3">test</div>
+    <div class="card" id="4">test</div>
+  </div>
+</div>
+{% endblock %}
