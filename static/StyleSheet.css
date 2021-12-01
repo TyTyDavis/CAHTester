@@ -1,0 +1,72 @@
+body {
+
+  background-color: #DCDCDC;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.container {
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
+}
+
+
+.white {
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  border-width: thick;
+  display: grid;
+  grid-template-rows: 1fr;
+  height: 80vh;
+}
+
+
+.black {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1%;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: thick;
+
+}
+
+textarea {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 150%;
+  width : 100%;
+  padding: 10px;
+  margin: 0px;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  resize: none;
+  height: 100%;
+}
+
+textarea:focus {
+  border: none;
+  outline: none;
+}
+input[type=button]{
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 0.75em;
+  background-color: white;
+  border-radius: 10px;
+  height: 35px
+  outline: none;
+  border: none;
+}
